@@ -10,7 +10,7 @@ import UIKit
     @objc optional func animatedTextInputShouldReturn(animatedTextInput: AnimatedTextInput) -> Bool
 }
 
-open class AnimatedTextInput: UIControl {
+@objcMembers open class AnimatedTextInput: UIControl {
 
     public typealias AnimatedTextInputType = AnimatedTextInputFieldConfigurator.AnimatedTextInputType
 
